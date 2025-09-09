@@ -1,0 +1,5 @@
+
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes BookBuyerAgent.java BookSellerAgent.java
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "seller1:BookSellerAgent;seller2:BookSellerAgent;buyer:BookBuyerAgent(The-Lord-of-the-rings)"
+

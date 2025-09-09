@@ -1,0 +1,5 @@
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes Agente1_3.java Agente2_3.java
+
+---
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "uno:Agente1_3(due);due:Agente2_3"

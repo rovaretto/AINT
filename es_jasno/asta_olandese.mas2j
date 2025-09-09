@@ -1,0 +1,13 @@
+MAS asta_olandese {
+
+    infrastructure: Centralised
+
+    agents:
+        banditor banditor.asl;
+
+        participant1 participant.asl;
+
+        participant2 participant.asl;
+
+        participant3 participant.asl;
+}

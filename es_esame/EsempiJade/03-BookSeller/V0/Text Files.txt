@@ -1,0 +1,8 @@
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes BookBuyerAgent.java
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "buyer:BookBuyerAgent(The-Lord-of-the-rings)"
+
+Così termina, fare vedere sulla gui con e senza doDelete():
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "buyer:BookBuyerAgent"
+

@@ -1,0 +1,29 @@
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes HelloWorldAgent.java
+
+(ANCHE SENZA GUI)
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "peter:HelloWorldAgent"
+
+-
+
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes HelloWorldAgent2.java
+
+(ANCHE SENZA GUI)
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "peter:HelloWorldAgent2"
+
+-
+
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes HelloWorldAgent3.java
+
+(ANCHE SENZA GUI)
+
+(UN SOLO ARGOMENTO!)
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "peter:HelloWorldAgent3(arg1 arg2 arg3)"
+
+(TRE ARGOMENTI)
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "peter:HelloWorldAgent3(arg1,arg2,arg3)"
+
+

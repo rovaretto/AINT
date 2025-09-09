@@ -1,0 +1,8 @@
+
+javac -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes BookSellerAgent.java
+
+(ANCHE SENZA GUI)
+
+java -cp /home/baldoni/Programs/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes jade.Boot -gui -agents "seller:BookSellerAgent"
+
+
